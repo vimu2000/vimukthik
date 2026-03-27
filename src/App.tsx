@@ -180,11 +180,11 @@ const EXPERIENCES: Experience[] = [
     company: "",
     period: "2022 - Present",
   },
-  { id: 2, role: "Software Engineer", company: "Botcalm", period: "2024-2026" },
+  { id: 2, role: "Software Engineer", company: "", period: "2024-2026" },
   {
     id: 4,
     role: "Entrepreneur",
-    company: "Agency Blue",
+    company: "V-Forge",
     period: "2026 - present",
   },
 ];
