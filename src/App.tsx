@@ -133,7 +133,7 @@ const SELECTED_WORK_ITEMS: WorkItem[] = [
 const SOCIAL_LINKS: SocialLink[] = [
   {
     label: "YouTube",
-    href: "https://www.youtube.com/@V_Forge_official",
+    href: "https://www.youtube.com/@vimukthikulasekara2109/videos",
     icon: (props) => <Youtube {...props} />,
   },
   {
@@ -148,7 +148,7 @@ const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/+94743206849",
+    href: "https://wa.me/+94766616945",
     icon: (props) => <WhatsappIcon {...props} />,
   },
 ];
@@ -605,10 +605,10 @@ const Footer = () => {
               Contact
             </h4>
             <a
-              href="mailto:vforge72@gmail.com"
+              href="mailto:vimukthikulasekara@gmail.com"
               className="text-2xl font-display uppercase hover:text-accent transition-colors"
             >
-              vforge72@gmail.com{" "}
+              vimukthikulasekara@gmail.com{" "}
             </a>
             {/* <p className="text-muted text-sm">Skopje, Macedonia</p> */}
           </div>
