@@ -88,24 +88,24 @@ interface SocialLink {
 const SELECTED_WORK_ITEMS: WorkItem[] = [
   {
     id: "01",
-    title: "AI Chatbots",
-    tag: "Conversational AI",
+    title: "Faceless YouTube Channels",
+    tag: "Content Creation",
     description:
-      "Intelligent assistants for customer support, lead capture, bookings, and internal team workflows.",
+      "Full production of faceless YouTube channels: scripting, editing, thumbnails, and consistent uploads built for growth.",
   },
   {
     id: "02",
-    title: "Blockchain Applications",
-    tag: "Web3 Systems",
+    title: "Short-Form Video Editing",
+    tag: "Video Editing",
     description:
-      "Decentralized applications built for secure transactions, smart contracts, token utilities, and transparent processes.",
+      "High-retention edits for YouTube Shorts, TikTok, and Reels with clean pacing, captions, sound design, and hooks.",
   },
   {
     id: "03",
-    title: "POS Systems",
-    tag: "Business Operations",
+    title: "Social Media Management",
+    tag: "Content Strategy",
     description:
-      "Fast and reliable point-of-sale systems with billing, inventory tracking, reporting, and day-to-day staff workflows.",
+      "End-to-end management of channels: planning, editing, publishing, and growing an engaged audience across platforms.",
   },
   {
     id: "04",
@@ -116,10 +116,10 @@ const SELECTED_WORK_ITEMS: WorkItem[] = [
   },
   {
     id: "05",
-    title: "Mini Games for Businesses",
-    tag: "Interactive Campaigns",
+    title: "AI Chatbots",
+    tag: "Conversational AI",
     description:
-      "Lightweight branded games designed to boost engagement, promotions, customer retention, and marketing campaigns.",
+      "Intelligent assistants for customer support, lead capture, bookings, and internal team workflows.",
   },
   {
     id: "06",
@@ -156,76 +156,94 @@ const SOCIAL_LINKS: SocialLink[] = [
 const SERVICES: Service[] = [
   {
     id: "01",
+    title: "Video Editing",
+    description:
+      "Dynamic short-form and long-form edits with clean pacing, captions, and sound design for YouTube, TikTok, and Reels.",
+  },
+  {
+    id: "02",
+    title: "Social Media Management",
+    description:
+      "End-to-end channel management: content planning, editing, publishing, and audience growth across platforms.",
+  },
+  {
+    id: "03",
     title: "Web Development",
     description:
       "Crafting high-performing websites that convert visitors into customers.",
   },
   {
-    id: "02",
+    id: "04",
     title: "System development",
     description:
       "Designing intuitive digital products with a focus on user experience.",
   },
   {
-    id: "03",
+    id: "05",
     title: "AI intergrations",
     description:
       "AI intergrations for your bussiness, AI chatbots, automations.",
   },
   {
-    id: "04",
-    title: "Blockchain development",
-    description:
-      "Building decentralized solutions to help businesses innovate and scale.",
-  },
-  {
-    id: "05",
+    id: "06",
     title: "Game development",
     description:
       "Building immersive worlds that captivate and engage players effectively.",
-  },
-  {
-    id: "06",
-    title: "Video Editing",
-    description:
-      "Dynamic video content that captures attention and drives engagement.",
   },
 ];
 
 const EXPERIENCES: Experience[] = [
   {
     id: 1,
+    role: "Content Creator & Video Editor",
+    company: "Faceless YouTube Channels",
+    period: "2025 - Present",
+  },
+  {
+    id: 2,
+    role: "Social Media Manager",
+    company: "V-Forge (Own Channel)",
+    period: "2024 - Present",
+  },
+  {
+    id: 3,
+    role: "Vlogger",
+    company: "Personal Vlogging Channel",
+    period: "2023 - Present",
+  },
+  {
+    id: 4,
     role: "Freelance Software Engineer",
     company: "",
     period: "2022 - Present",
   },
-  { id: 2, role: "Software Engineer", company: "", period: "2024-2026" },
+  { id: 5, role: "Software Engineer", company: "", period: "2024 - 2026" },
   {
-    id: 4,
+    id: 6,
     role: "Entrepreneur",
     company: "V-Forge",
-    period: "2026 - present",
+    period: "2026 - Present",
   },
 ];
 
 const FAQS: FAQ[] = [
   {
     id: 1,
-    question: "How long does a typical project take?",
+    question: "How fast can you turn around a video edit?",
     answer:
-      "Project timelines vary depending on complexity, but most small web design projects take 1-4 weeks from discovery to launch.",
+      "Most short-form edits are delivered within 24-72 hours. Full YouTube videos or larger projects typically take a few days to a week depending on scope.",
   },
   {
     id: 2,
-    question: "What is your design process?",
+    question: "Do you manage channels end-to-end?",
     answer:
-      "My process is strategy-first. We start with discovery, move to wireframing, then visual design, and finally development or handoff.",
+      "Yes. I handle the full workflow — scripting, editing, thumbnails, publishing, and growth — for both faceless and personal channels, so you can stay hands-off.",
   },
   {
     id: 3,
     question: "Do you offer ongoing support?",
     answer:
-      "Yes, I offer maintenance and support packages for all web projects to ensure everything stays up to date and performing well.",
+      "Yes, I offer ongoing content and maintenance packages so your channels and projects stay consistent, up to date, and performing well.",
   },
 ];
 
@@ -324,9 +342,9 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 1 }}
           >
             <p className="text-lg md:text-2xl text-muted max-w-xl leading-relaxed mb-8">
-              High performing developer. Creative individual. I turn ideas into
-              realities that people can see, use, and connect with. Based in
-              SriLanka.
+              Video editor & social media manager who also builds software. I
+              turn ideas into content and products people watch, use, and
+              connect with. Based in Sri Lanka.
             </p>
             {/*
             <motion.button
@@ -433,12 +451,13 @@ const SelectedWork = () => {
               Selected Work
             </span>
             <h2 className="text-5xl md:text-7xl font-display uppercase leading-none mt-6">
-              Software I <br /> build
+              Work I <br /> create
             </h2>
           </div>
           <p className="max-w-md text-sm font-mono uppercase tracking-wider text-bg/60">
-            A focused look at the digital products and business systems I build
-            for modern brands, founders, and growing teams.
+            A focused look at the content and digital products I create — from
+            faceless YouTube channels and video edits to web apps and
+            automation.
           </p>
         </div>
 
@@ -606,7 +625,7 @@ const Footer = () => {
             </h4>
             <a
               href="mailto:vimukthikulasekara@gmail.com"
-              className="text-2xl font-display uppercase hover:text-accent transition-colors"
+              className="text-xl font-display uppercase hover:text-accent transition-colors"
             >
               vimukthikulasekara@gmail.com{" "}
             </a>
